@@ -7,7 +7,7 @@ module.exports = {
     production : {
       key  : 'ubuntu.pem',
       user : 'root',
-      host : '13.233.104.189',
+      host : '43.204.149.220',
       ref  : 'origin/master',
       repo : 'https://github.com/pururajatgithub/bookkart-frontend.git',
       path : '/home/ubuntu/Desktop',
