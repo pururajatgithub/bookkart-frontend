@@ -17,7 +17,7 @@ export default function Contact() {
 })
 const postContact = () => {
   console.log("postBookData",contact)
-  axios.post(`http://172.31.0.45:8000/contact/`,contact)
+  axios.post(`http://13.233.104.189:8000/contact/`,contact)
 };
   return (
     <>

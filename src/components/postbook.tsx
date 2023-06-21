@@ -24,7 +24,7 @@ export default function Postbook() {
 const [imageUrl,setImageUrl] = useState('');
 const postBookData = () => {
   console.log("postBookData",book)
-  axios.post(`http://172.31.0.45:8000/book/`,book,{headers:headers})
+  axios.post(`http://13.233.104.189:8000/book/`,book,{headers:headers})
 };
 
   return (

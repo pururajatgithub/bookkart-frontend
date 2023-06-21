@@ -9,7 +9,7 @@
 
 import axios from 'axios';
 
-const apiurl = 'http://localhost:8000/';
+const apiurl = 'http://13.233.104.189:8000/';
 
 export const RestClient = axios.create({
     baseURL:apiurl,

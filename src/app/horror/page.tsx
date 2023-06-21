@@ -8,7 +8,7 @@ import { IoIosArrowBack } from "react-icons/io";
 export default function Page() {
   const [books,setBooks] = useState([]);
   useEffect(()=>{
-    axios.get('http://172.31.0.45:8000/book/').then((data)=>{
+    axios.get('http://13.233.104.189:8000/book/').then((data)=>{
       console.log('DATA:--->', data);
       setBooks(data.data);
     })
