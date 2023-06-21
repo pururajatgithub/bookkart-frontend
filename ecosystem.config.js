@@ -12,7 +12,7 @@ module.exports = {
       repo : 'https://github.com/pururajatgithub/bookkart-frontend.git',
       path : '/home/ubuntu/Desktop',
       'pre-deploy-local': '',
-      'post-deploy' : 'source /root/.nvm/nvm && npm install && npm next build && pm2 reload ecosystem.config.js --env production',
+      'post-deploy' : 'source /root/.nvm/nvm.sh && npm install && npm next build && pm2 reload ecosystem.config.js --env production',
       'pre-setup': '',
       'ssh-options':'ForwardAgent=yes'
     }
