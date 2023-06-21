@@ -6,7 +6,7 @@ module.exports = {
   deploy : {
     production : {
       key  : 'ubuntu.pem',
-      user : 'ubuntu',
+      user : 'root',
       host : '13.233.104.189',
       ref  : 'origin/master',
       repo : 'https://github.com/pururajatgithub/bookkart-frontend.git',
