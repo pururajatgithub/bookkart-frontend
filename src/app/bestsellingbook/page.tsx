@@ -9,7 +9,7 @@ import { IoIosArrowBack } from "react-icons/io";
 export default function Page() {
   const [book,setBook] = useState([]);
   useEffect(()=>{
-    axios.get(`http://127.0.0.1:8000/book/`).then((data)=>{
+    axios.get(`http://0.0.0.0:8000/book/`).then((data)=>{
       console.log('Individual book', data);
       setBook(data.data);
     })
