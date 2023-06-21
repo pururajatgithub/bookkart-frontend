@@ -22,7 +22,7 @@ const Footer = () => {
             <ul>
               <li ><b>Company</b> </li><br />
               <li className="hover:text-[#FF6D6D] hover:cursor-pointer">About us</li>
-              <li className="hover:text-[#FF6D6D] hover:cursor-pointer"> Contact us</li>
+              <li className="hover:text-[#FF6D6D] hover:cursor-pointer"><a href="/contact">Contact us</a></li>
               <li className="hover:text-[#FF6D6D] hover:cursor-pointer">Terms and conditions</li>
               <li className="hover:text-[#FF6D6D] hover:cursor-pointer">Shipping Policy</li>
               <li className="hover:text-[#FF6D6D] hover:cursor-pointer">Privacy Policy</li>
